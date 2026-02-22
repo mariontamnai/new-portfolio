@@ -3,6 +3,10 @@
 A modern and responsive personal portfolio website built with React and Vite.  
 This project showcases my skills, projects, and contact information as a frontend developer.
 
+Live Demo
+
+🔗 https://new-portfolio-marion-tamnais-projects.vercel.app
+
 
  Tech Stack
 
@@ -24,7 +28,7 @@ This project showcases my skills, projects, and contact information as a fronten
 
 
 
-Installation
+ Installation
 
 1. Clone the repository
    git clone https://github.com/mariontamnai/new-portfolio.git
@@ -38,6 +42,10 @@ Installation
 4. Start the development server
    npm run dev
 
+ Deployment
+
+This project is deployed using Vercel with automatic GitHub integration.  
+Any new changes pushed to the main branch are automatically built and deployed.
 
 
  Project Purpose
