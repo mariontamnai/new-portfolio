@@ -71,7 +71,7 @@ const Hero = () => {
           }}>
             A frontend developer from Nairobi, Kenya building responsive,
             user-friendly web applications with React and modern JavaScript.
-            Open to internship opportunities.
+            Open to internship opportunities and any open roles available.
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-start' }}>
