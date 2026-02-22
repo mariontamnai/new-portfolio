@@ -1,4 +1,4 @@
- Marion Tumnai Portfolio
+ Marion Tamnai Portfolio
 
 A modern and responsive personal portfolio website built with React and Vite.  
 This project showcases my skills, projects, and contact information as a frontend developer.
