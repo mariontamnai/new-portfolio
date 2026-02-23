@@ -77,12 +77,12 @@ const Hero = () => {
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-start' }}>
             <a href="#projects" style={{
               background: 'var(--amber)', color: '#0d0b09',
-              padding: '0.9rem 2.2rem', borderRadius: '50px',
-              textDecoration: 'none', fontWeight: 500, fontSize: '0.9rem'
+              padding: '0.8rem 1.8rem', borderRadius: '50px',
+              textDecoration: 'none', fontWeight: 500, fontSize: '0.9rem',
             }}>View My Work</a>
             <a href="#contact" style={{
               border: '1px solid var(--border)', color: 'var(--amber)',
-              padding: '0.9rem 2.2rem', borderRadius: '50px',
+              padding: '0.8rem 1.8rem', borderRadius: '50px',
               textDecoration: 'none', fontSize: '0.9rem'
             }}>Get In Touch</a>
           </div>
