@@ -86,3 +86,47 @@ body {
   from { transform: translateX(0); }
   to { transform: translateX(-50%); }
 }
+
+@media (max-width: 768px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .hamburger {
+    display: block !important;
+  }
+
+  .hero {
+    padding: 6rem 1.5rem 2rem !important;
+  }
+
+  section {
+    padding: 2rem 1.5rem !important;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .project-card.wide {
+    grid-column: span 1 !important;
+  }
+  #skills h2 {
+    font-size: 2rem !important;
+  }
+
+  
+  .exp-card {
+    grid-template-columns: auto 1fr !important;
+  }
+
+  
+  #contact h2 {
+    font-size: 2.5rem !important;
+  }
+
+  #contact .contact-links {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+}
