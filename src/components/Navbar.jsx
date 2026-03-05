@@ -20,7 +20,7 @@ const Navbar = () => {
           color: 'var(--amber)', cursor: 'pointer'
         }}>Marion.</span>
 
-        {/* Desktop links */}
+        
         <ul className="desktop-nav" style={{
           position: 'absolute', left: '50%', transform: 'translateX(-50%)',
           display: 'flex', gap: '2.5rem', listStyle: 'none', alignItems: 'center'
@@ -39,14 +39,14 @@ const Navbar = () => {
           ))}
         </ul>
 
-        {/* Desktop CV */}
-        <a href="/Marion_Tamnai_Resume.docx" download className="desktop-nav" style={{
+        
+        <a href="/Marion_Tamnai_Resume.pdf" download className="desktop-nav" style={{
           background: 'var(--amber)', color: '#0d0b09',
           padding: '0.5rem 1.2rem', borderRadius: '50px',
           textDecoration: 'none', fontWeight: 500, fontSize: '0.85rem'
         }}>Download CV</a>
 
-        {/* Hamburger button */}
+        
         <button className="hamburger" onClick={() => setMenuOpen(!menuOpen)} style={{
           background: 'transparent', border: 'none',
           color: 'var(--amber)', fontSize: '1.5rem',
@@ -55,7 +55,7 @@ const Navbar = () => {
 
       </nav>
 
-      {/* Mobile fullscreen menu */}
+      
       {menuOpen && (
         <div style={{
           position: 'fixed', top: 0, left: 0, right: 0, bottom: 0,
@@ -74,7 +74,7 @@ const Navbar = () => {
               }}
             >{item}</a>
           ))}
-          <a href="/Marion_Tamnai_Resume.docx" download style={{
+          <a href="/Marion_Tamnai_Resume.pdf" download style={{
             background: 'var(--amber)', color: '#0d0b09',
             padding: '0.8rem 2rem', borderRadius: '50px',
             textDecoration: 'none', fontWeight: 500, fontSize: '1rem'

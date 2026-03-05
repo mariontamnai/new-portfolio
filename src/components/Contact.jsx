@@ -41,7 +41,7 @@ const Contact = () => (
         </a>
       ))}
     </div>
-    <a href="/Marion_Tamnai_Resume.docx" download style={{
+    <a href="/Marion_Tamnai_Resume.pdf" download style={{
       display: 'inline-block', background: 'var(--amber)', color: '#0d0b09',
       padding: '1rem 2.5rem', borderRadius: '50px', textDecoration: 'none',
       fontWeight: 500, fontSize: '0.95rem', transition: 'all 0.2s'

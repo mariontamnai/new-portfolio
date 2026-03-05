@@ -2,7 +2,7 @@ import React, { useRef } from 'react';
 
 const skillCategories = [
   { title: 'Languages', skills: ['HTML5','CSS3','JavaScript (ES6+)','TypeScript'] },
-  { title: 'Frameworks & Libraries', skills: ['React','React Native'] },
+  { title: 'Frameworks & Libraries', skills: ['React','React Native', 'Angular'] },
   { title: 'Tools & Technologies', skills: ['Git','GitHub','Figma','VS Code','Vercel','REST APIs','JWT'] },
   { title: 'Concepts', skills: ['Responsive Design','UI/UX Fundamentals','Agile Development','Biometric Auth','Version Control'] },
 ];
