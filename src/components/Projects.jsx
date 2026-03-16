@@ -11,11 +11,11 @@ const projects = [
   },
   {
     num: '02', status: 'In Progress', wide: false,
-    name: 'ZaymaPay',
-    desc: 'A cross-platform mobile banking app with login, home, send money, and transaction history screens built with React Native.',
-    tags: ['React Native','Fintech','Mobile','UI/UX'],
+    name: 'Her-Him Bank Dashboard',
+    desc: 'A responsive banking dashboard built with Angular v21, featuring account overview, transaction history, and send money flows. Focused on component architecture and TypeScript.',
+    tags: ['Angular','Fintech','Web','UI/UX'],
     live: null,
-    github: 'https://github.com/mariontamnai/zaymapay',
+    github: 'https://github.com/mariontamnai/Her-Him-Bank-Dashboard',
   },
   {
     num: '03', status: '✦ Live', wide: true,
