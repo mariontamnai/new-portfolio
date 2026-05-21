@@ -6,8 +6,8 @@ const projects = [
     name: 'Secure Biometric Voting System',
     desc: 'A secure web-based voting platform for JKUAT integrating face recognition, JWT authentication, and an admin dashboard. Built entirely in React with REST API integration.',
     tags: ['React','JWT','Face Recognition','Node.js','MongoDB','REST API'],
-    live: 'https://secure-online-voting-system-ten.vercel.app/',
-    github: 'https://github.com/mariontamnai/Secure-online-voting-system',
+    live: 'https://jkuat-online-voting-sysstem.netlify.app',
+    github: 'https://github.com/mariontamnai/jkuat-voting-system',
   },
   {
     num: '02', status: 'In Progress', wide: false,
