@@ -2,7 +2,7 @@ import React from 'react';
 
 const experiences = [
   { role: 'IT Support Intern', company: 'Trademark / Tribe Hotel · Nairobi, Kenya', date: 'May 2025 – August 2025', desc: 'Provided IT support across hotel departments, troubleshooting hardware and software issues to minimize downtime. Gained hands-on experience in a professional IT environment.' },
-  { role: 'Personal Web Projects', company: 'Independent', date: '2023 – Present', desc: 'Built and deployed personal projects using HTML, CSS, JavaScript, and React with a focus on responsive design and clean UI. Managed version control using Git and GitHub.' },
+  { role: 'Personal Web & QA Projects', company: 'Independent', date: '2023 – Present', desc: 'Built and deployed personal projects using HTML, CSS, JavaScript, and React with a focus on responsive design and clean UI. Maintained a QA portfolio on GitHub documenting test plans, bug reports, and automated Postman collections. Managed version control using Git and GitHub.' },
   { role: 'Diploma in Information Technology', company: 'Jomo Kenyatta University of Agriculture and Technology (JKUAT)', date: 'Expected June 2026', desc: 'Studying Information Technology with a focus on software development, web technologies, and problem solving.' },
 ];
 
