@@ -40,7 +40,7 @@ const Navbar = () => {
         </ul>
 
         
-        <a href="/Marion_Tamnai_Resume.pdf" download className="desktop-nav" style={{
+        <a href="/Marion_Tamnai_RESUME.pdf" download className="desktop-nav" style={{
           background: 'var(--amber)', color: '#0d0b09',
           padding: '0.5rem 1.2rem', borderRadius: '50px',
           textDecoration: 'none', fontWeight: 500, fontSize: '0.85rem'
@@ -74,7 +74,7 @@ const Navbar = () => {
               }}
             >{item}</a>
           ))}
-          <a href="/Marion_Tamnai_Resume.pdf" download style={{
+          <a href="/Marion_Tamnai_RESUME.pdf" download style={{
             background: 'var(--amber)', color: '#0d0b09',
             padding: '0.8rem 2rem', borderRadius: '50px',
             textDecoration: 'none', fontWeight: 500, fontSize: '1rem'

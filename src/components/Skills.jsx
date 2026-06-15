@@ -3,7 +3,9 @@ import React, { useRef } from 'react';
 const skillCategories = [
   { title: 'Languages', skills: ['HTML5','CSS3','JavaScript (ES6+)','TypeScript'] },
   { title: 'Frameworks & Libraries', skills: ['React','React Native', 'Angular'] },
-  { title: 'Tools & Technologies', skills: ['Git','GitHub','Figma','VS Code','Vercel','REST APIs','JWT'] },
+  { title: 'Tools & Technologies', skills: ['Git','GitHub','Figma','VS Code','Vercel','REST APIs','JWT','Postman'] },
+  { title: 'Testing & QA', skills: ['Manual Testing','API Testing','Test Planning','Bug Reporting','Exploratory Testing'] },
+  { title: 'Currently Learning', skills: ['Cypress','Playwright'] },
   { title: 'Concepts', skills: ['Responsive Design','UI/UX Fundamentals','Agile Development','Biometric Auth','Version Control'] },
 ];
 

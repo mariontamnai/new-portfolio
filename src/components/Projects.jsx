@@ -4,10 +4,11 @@ const projects = [
   {
     num: '01', status: '✦ Live', wide: false,
     name: 'Secure Biometric Voting System',
-    desc: 'A secure web-based voting platform for JKUAT integrating face recognition, JWT authentication, and an admin dashboard. Built entirely in React with REST API integration.',
-    tags: ['React','JWT','Face Recognition','Node.js','MongoDB','REST API'],
+    desc: 'A secure web-based voting platform for JKUAT integrating face recognition and JWT authentication. Includes a full QA portfolio — 8 manual test cases, 3 bug reports, and 23 automated Postman API tests across 10 endpoints.',
+    tags: ['React','JWT','Face Recognition','Node.js','MongoDB','REST API','Postman','Manual Testing'],
     live: 'https://jkuat-online-voting-sysstem.netlify.app',
     github: 'https://github.com/mariontamnai/jkuat-voting-system',
+    qa: 'https://github.com/mariontamnai/qa-portfolio',
   },
   {
     num: '02', status: 'In Progress', wide: false,
@@ -53,9 +54,10 @@ const Projects = () => (
               ))}
             </div>
             <div style={{ display: 'flex', gap: '1rem' }}>
-              {p.live && <a href={p.live} target="_blank" rel="noreferrer" style={{ fontSize: '0.83rem', color: 'var(--amber)', textDecoration: 'none' }}>Live Demo →</a>}
-              {p.github && <a href={p.github} target="_blank" rel="noreferrer" style={{ fontSize: '0.83rem', color: 'var(--amber)', textDecoration: 'none' }}>GitHub →</a>}
-            </div>
+  {p.live && <a href={p.live} target="_blank" rel="noreferrer" style={{ fontSize: '0.83rem', color: 'var(--amber)', textDecoration: 'none' }}>Live Demo →</a>}
+  {p.github && <a href={p.github} target="_blank" rel="noreferrer" style={{ fontSize: '0.83rem', color: 'var(--amber)', textDecoration: 'none' }}>GitHub →</a>}
+  {p.qa && <a href={p.qa} target="_blank" rel="noreferrer" style={{ fontSize: '0.83rem', color: 'var(--amber)', textDecoration: 'none' }}>QA Portfolio →</a>}
+</div>
           </div>
         </div>
       ))}

@@ -69,9 +69,10 @@ const Hero = () => {
             maxWidth: '420px',
             fontWeight: 300
           }}>
-            A frontend developer from Nairobi, Kenya building responsive,
-            user-friendly web applications with React and modern JavaScript.
-            Open to internship opportunities and any open roles available.
+            A frontend developer transitioning into QA Engineering, from Nairobi,
+Kenya. I build responsive web apps with React and modern JavaScript,
+and test them with manual testing, API testing, and bug reporting.
+Open to internship opportunities and any open roles available.
           </p>
 
           <div style={{ display: 'flex', gap: '1rem', justifyContent: 'flex-start' }}>
